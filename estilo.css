@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+h1 {
+    color: #fff;
+    margin-bottom: 15px;
+    font-size: 3rem;
+}
+body {
+    width: 400px;
+    min-height: 90vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: brown;
+}
+
+#novatarefa {
+    background-color: rgb(255, 255, 255);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+
+    padding: 20px 40px;
+    width: 100%;
+    height: 100%;
+}
+
+#novatarefa input {
+    padding: 15px;
+    border-radius: 15px;
+}
+
+#novatarefa button {
+    padding: 15px;
+    margin-left: 30px;
+    background-color: rgb(41, 5, 248);
+    color: #fff;
+    border-radius: 15px;
+    border: none;
+}
+
+#novatarefa button:hover {
+    background-color: brown;
+    color: #fff;
+    transition: ease-in-out 1.2s;
+    
+}
+#tarefas {
+    background-color: rgb(255, 255, 255);
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    padding: 20px 40px;
+    width: 100%;
+    height: 100%;
+}
+
+.delete {
+    padding: 15px;
+    margin-left: 30px;
+    background-color: rgb(41, 5, 248);
+    color: #fff;
+    border-radius: 15px;
+    border: none;
+}
+
+#taskname {
+  font-size: 2rem;
+  margin-left: 5px;
+}
